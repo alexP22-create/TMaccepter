@@ -1,0 +1,24 @@
+input1.in, input2.in, input3.in and input4.in are a few examples
+of inputs for testing the program
+
+	The program reads the entire input which contains a command
+and the codification of the Turing Machine.
+	The codification's format is:
+number_of_states
+final_state_1 ... final_state_p
+transition_1
+transition_2
+...
+transition_n
+
+	On the first line the input will have what action the program
+will do.
+	If it's "accept", it will receive words and the codification of
+the TM and will print true or false for every word if it is accepted
+or not.
+	If it's "step", it will receive a list of configurations which will
+represent one at a time the input for the TM. The program will print
+the list of returned configurations.
+	If it's "k_accept", it will receive words and for every word a
+number of steps and will check if the word is accepted by the TM 
+in that respective number of steps.
